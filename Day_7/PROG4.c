@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 int revn(int n,int m);
 int main()
 {int num;
