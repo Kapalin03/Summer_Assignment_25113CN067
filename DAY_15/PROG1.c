@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<math.h>
 void enter(int arr[],int n);
 void reverse(int arr[],int n);
 int main()
@@ -19,7 +18,7 @@ void enter(int arr[],int n){
 }
 void reverse(int arr[],int n){
     int i;
-    for(i=0;i<(int)round(n/2);i++)
+    for(i=0;i<(n/2);i++)
     {int t=arr[i];
     arr[i]=arr[n-1-i];
     arr[n-1-i]=t;}
