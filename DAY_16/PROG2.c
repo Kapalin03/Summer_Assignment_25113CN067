@@ -13,7 +13,6 @@ void enter(int n,int arr[]){
     for(i=0;i<n;i++){printf("Enter term %d: ",i+1);
         scanf("%d",&arr[i]);}}
 void freq(int n,int arr[]){int i,s,a,j;
-    int arr2[n];
     for(i=0;i<n;i++){if(arr[i]==-1){continue;}
     a=arr[i];
     s=0;
