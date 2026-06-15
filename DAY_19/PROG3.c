@@ -21,7 +21,8 @@ void input(int n,int m,int arr[n][m]){
 }
 void transpose(int n,int m,int arr[n][m]){
     int i,j;
-    int arr2[n][m];
-    for(i=0;i<n;i++){for(j=0;j<m;j++){arr2[i][j]=arr[j][i];
-    printf("%d\t",arr2[i][j]);}
+    int tr[m][n];
+    for(i=0;i<n;i++){for(j=0;j<m;j++){tr[j][i]=arr[i][j];}}
+    for(i=0;i<m;i++){for(j=0;j<n;j++){
+    printf("%d\t",tr[i][j]);}
     printf("\n");}}
